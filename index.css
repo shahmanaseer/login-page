@@ -1,0 +1,82 @@
+body {
+    background-color: #e3e4e6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.first, .second {
+    width: 45%;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.first img {
+    margin-bottom: -5px;
+}
+
+.first p {
+    font-size: 24px;
+    padding-left: 28px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second form {
+    background-color: #fff;
+    padding: 20px;
+    width:70%;
+    box-shadow: 0 4px 8px 0 #807a7a, 0 6px 20px 0 #e3e4e6;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.log, .na {
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log {
+    background-color: #1877f2;
+    color: white;
+}
+
+.na {
+    background-color: #42b72a;
+    color: white;
+}
+
+label a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+hr {
+    color: #e3e4e6;
+    height: 2px;
+    background-color: #e3e4e6;
+    border: none;
+}
+
+.third {
+    padding-right: 10px;
+    padding-left: 50px;
+}
